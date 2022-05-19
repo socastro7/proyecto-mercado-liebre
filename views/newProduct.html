@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--aca arranca el forumulario-->
+    <form action="/newProduct" method="POST" class="createForm">
+        <div>
+            <label>Nombre del producto:</label>
+            <input type="text" name="nombreProducto" class="control">
+        </div>
+        <div>
+            <label>Precio:</label>
+            <input type="text" name="precio" class="control">
+        </div>
+        <div>
+            <label>Categoria:</label>
+            <select name="categoria" class="control">
+                <option value="hogar">Hogar</option>
+                <option value="electro">Electro</option>
+                <option value="indumentaria">Indumentaria</option>
+            </select>
+        </div>
+        <div>
+            <label>Ciudad:</label>
+            <select name="ciudad" class="control"></select>
+                <option value="baires">Buenos Aires</option>
+                <option value="rosario">Rosario</option>
+                <option value="mendoza">Mendoza</option>
+            </select>
+        </div>
+        <div>
+            <label>Descripcion:</label>
+            <textarea name="descripcion" class="control"></textarea>
+        </div>
+        <div>
+            <label>Esta en oferta:</label>
+            <input type="radio" name="enOferta">
+        </div>
+        <button type="submit" class="button">Guardar</button>
+    </form>
+</body>
+</html>

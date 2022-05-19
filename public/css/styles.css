@@ -1,0 +1,202 @@
+/*para tipos de letra y colores y tamanos hacer caracteristicas*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size:12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #EAC926;
+    padding:20px;
+}
+
+
+article{
+    margin:10px;
+}
+
+main{
+    width:90%;
+    margin:auto;
+}
+
+footer{
+    border-top: #ebebeb 4px solid
+}
+
+
+.bgLightGrey{
+    background-color: #ebebeb;
+}
+
+.bgLightBlue{
+    background-color: #0e73df;
+}
+
+.bgWhite{
+    background-color: white;
+}
+
+.fontWhite{
+    color: #ebebeb;
+}
+
+.fontBlue{
+    color: #0e73df;
+}
+
+.fontIcon{
+    font-size:25px;
+}
+
+.fontHeading{
+    font-size:24px;
+}
+
+/*no la uso*/
+.fontMedium{
+    font-size:16px;
+}
+
+.navSection li{
+    list-style:none;
+}
+.navSection li a{
+    text-decoration:none;
+    color: black;
+}
+
+.cajaArticulo{
+    padding:15px;
+    border-top: solid 1px #ebebeb;
+    background-color:white;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    display:none;
+}
+
+.cajaArticulo h3{
+    width:100%;
+}
+
+.precio{
+    font-size:18px;
+    flex-grow:0.3;
+}
+
+.descuentos{
+    font-size:16px;
+    color: #11ee2f;
+    flex-grow: 0.7;
+    /*align-self:center;*/
+}
+
+
+
+.productos article{
+    box-shadow: 0px 0px 0px rgb(100,100,100);
+}
+
+.truck{
+    /*font-size:20px;
+    padding: 10px;
+    border-radius: 50%;*/
+    color: #11ee2f;
+    border:#11ee2f solid 1px;
+
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    /*border: 1px solid #39b54a;*/
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.mobileHide{
+    display:none;
+}
+
+.barraBuscar{
+    border: none;
+    border-color: #EAC926;
+    width:30%;
+    margin:auto;
+}
+
+.barraBuscar input{
+    height: 2vw;
+    width: 80%;
+}
+
+/*el boton me queda mas abajo de la barra*/
+.barraBuscar button{
+    height: 2vw;
+    width: 10%;
+}
+
+.barraBuscar button i{
+    margin:auto;
+}
+
+/*form de crear un producto*/
+.createForm{
+    padding:20px 15px;
+}
+
+.createForm div{
+    margin: bottom 15px;
+}
+
+.createForm label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.error{
+    color:red;
+}
+
+/*forms*/
+
+/*lugar de relleno, listitas*/
+.control{
+    width: 100%;
+    padding: 8px 8px;
+    font-size: 10px;
+    color:rgb(48, 49, 56);
+    max-width:1200px;
+    margin:auto
+}
+
+/*boton enviar*/
+.button{
+    background-color: #1259c3;
+    border:  none;
+    color:#FFF;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/*foto subir contacto*/
+.foto{
+    border:rgb(48, 49, 56) 3px solid;
+    height:10vw;
+    width:10%;
+    margin:auto;
+}
+
+

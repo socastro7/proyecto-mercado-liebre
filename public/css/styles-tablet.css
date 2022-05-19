@@ -1,0 +1,55 @@
+@media (min-width:361px){
+    .headerTopBar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .headerTopBar p{
+        text-align: right;
+        font-size: 10px;
+    }
+
+    .navSection{
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top:10px;
+    }
+
+    .navSection ul{
+        display:flex;
+    }
+
+    .navSection li{
+        font-size: 12px;
+        margin:5px
+    }
+
+    .cajaArticulo {
+        display: flex;
+    }
+    .productos h2{
+        width:100%
+    }
+    .productos article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: 40%;
+    }
+    
+    .mobileHide{
+        display:flex
+    }
+    .burger{
+        display:none;
+    }
+
+
+    .control{
+        font-size: 15px;
+    }
+
+    .button{
+        font-size: 20px;
+    }
+}

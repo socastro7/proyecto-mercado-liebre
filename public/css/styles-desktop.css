@@ -1,0 +1,47 @@
+@media(min-width: 769px){
+    .productos article{
+        width: 20%;
+    }
+
+    .headerTopBar, .navSection{
+        max-width:1200px;
+        margin:auto;
+    }
+    .headerTopBar p{
+        text-align: right;
+        font-size: 20px;
+    }
+    .navSection li{
+        font-size: 18px;
+        margin:10px;
+    }
+
+    footer section article{
+        flex-grow:1;
+        width:10%;
+    }
+    .productName{
+        display:none;
+        transition: all 500ms;
+    }
+
+    /*esto funciona pero solo si tocas la data(no la foto)*/
+    .product :hover .productName{
+            display:block;
+    }
+
+    .product{
+        box-shadow:none;
+    }
+    .product:hover{
+        box-shadow: 0 0 10px rgb(100,100,100);
+    }
+
+    .button:hover{
+        background-color: #0022AA
+    }
+
+    .mpIcon:hover{
+       color: #0022AA;
+    }
+}
